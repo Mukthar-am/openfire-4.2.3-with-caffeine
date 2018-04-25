@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <class>org.caffeine.Caffeine</class>
+    <name>caffeine</name>
+    <description>Caffeine kafka connector plugin, v1.0</description>
+    <author>Mukthar Ahmed</author>
+    <version>1.0.0</version>
+    <date>27/03/2014</date>
+    <minServerVersion>3.9.0</minServerVersion>
+
+    <adminconsole>
+        <tab id="Caffeine" name="Caffeine" url="caffeine.jsp" description="Click to manage...">
+            <sidebar id="caffeinesidebar" name="Caffeine">
+                <item id="my-caffeine" name="user1"
+                      url="caffeine.jsp"
+                      description="Click to administer settings for my plugin" />
+            </sidebar>
+        </tab>
+
+    </adminconsole>
+
+</plugin>

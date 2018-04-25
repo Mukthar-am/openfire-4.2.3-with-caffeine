@@ -1,0 +1,20 @@
+<ivy-module version="2.0">
+    <info organisation="org.apache" module="caffeine"/>
+    <dependencies>
+        <dependency org="joda-time" name="joda-time" rev="2.9.9"/>
+
+        <dependency org="org.slf4j" name="slf4j-api" rev="1.7.6"/>
+        <dependency org="ch.qos.logback" name="logback-classic" rev="1.1.2"/>
+
+        <!-- jackson core and databind  -->
+        <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.9.5"/>
+        <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.9.5"/>
+
+        <!-- To avoid: java.lang.NoClassDefFoundError: javax/annotation/Priority -->
+        <dependency org="javax.annotation" name="javax.annotation-api" rev="1.2"/>
+        <!--<dependency org="javax.annotation" name="javax.annotation-api" rev="1.3.2"/>-->
+
+        <dependency org="org.glassfish.jersey" name="jax-rs-ri" rev="2.0-m13-3"/>
+
+    </dependencies>
+</ivy-module>
